@@ -1,0 +1,1 @@
+select productid, name, color from {{source('projetofinal_kondado','production_product')}}

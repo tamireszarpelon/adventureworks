@@ -1,1 +1,0 @@
-select productid from {{source('projetofinal_kondado','production_product')}}
