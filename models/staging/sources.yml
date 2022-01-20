@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: projetofinal_kondado
+    description: é a replica do conjunto de dados da Adventure Works
+    tables:
+      - name: production_product
+        description: >
+          Dados dos produtos.
+        columns:
+          - name: productid
+            description: chave primária da tabela
+            tests:
+              - unique
+              - not_null
+          - name: name
+            description: Nome dos produtos
+
+      - name: public_address
+      - name: public_customer
+      - name: sales_creditcard
+      - name: sales_salesorderdetail
+      - name: sales_salesorderheader
+      - name: sales_salesorderheadersalesreason
+      - name: sales_salesreason
+
+  
